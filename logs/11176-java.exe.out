@@ -1,0 +1,44 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1117milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1117"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56845"}
+{"logLevel":"info","message":"Listening on port:56845"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkWritten' and 'StepImplementation.checkWritten'"}
+{"logLevel":"debug","message":"Found {} li elementin içinde Favori Ürününüz Yok yazıyor mu? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.hover' and 'StepImplementation.hover'"}
+{"logLevel":"debug","message":"Found {} li elementin üzerine gelip menüden {} li elemente tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.addToFav' and 'StepImplementation.addToFav'"}
+{"logLevel":"debug","message":"Found {} li listeden ilk 3 ürünü favorilere ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.hoverOver' and 'StepImplementation.hoverOver'"}
+{"logLevel":"debug","message":"Found {} li elementin üzerine gelip tıklayarak menüden {} li elemente tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickOnce' and 'StepImplementation.clickOnce'"}
+{"logLevel":"debug","message":"Found {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertTrue' and 'StepImplementation.assertTrue'"}
+{"logLevel":"debug","message":"Found {} li ve {} isimli sayfa açık mı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.listCheckControl' and 'StepImplementation.listCheckControl'"}
+{"logLevel":"debug","message":"Found {} li listede 3 eleman da seçildi mı? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkOrder' and 'StepImplementation.checkOrder'"}
+{"logLevel":"debug","message":"Found {} li listenin sıralamasını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.listControl' and 'StepImplementation.listControl'"}
+{"logLevel":"debug","message":"Found {} li listede 3 eleman var mı? in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elemente tıkla : public void clickOnce(String xpath)"}
+{"logLevel":"debug","message":"\t{} li elementin üzerine gelip menüden {} li elemente tıklama : public void hover(String xpath1, String xpath2) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li ve {} isimli sayfa açık mı : public void assertTrue(String url, String name)"}
+{"logLevel":"debug","message":"\t{} li elementin üzerine gelip tıklayarak menüden {} li elemente tıklama : public void hoverOver(String xpath1, String xpath2) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li listeden ilk 3 ürünü favorilere ekle : public void addToFav(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li listenin sıralamasını kontrol et : public void checkOrder(String xpath)"}
+{"logLevel":"debug","message":"\t{} li listede 3 eleman da seçildi mı? : public void listCheckControl(String xpath)"}
+{"logLevel":"debug","message":"\t{} li elementin içinde Favori Ürününüz Yok yazıyor mu? : public void checkWritten(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li listede 3 eleman var mı? : public void listControl(String xpath)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

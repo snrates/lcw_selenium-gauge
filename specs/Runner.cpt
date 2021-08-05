@@ -1,0 +1,32 @@
+Created by SONER on 25.07.2021
+
+
+# Çerezleri kapat ve anasayfa kontrolü yap
+* "2" saniye bekle
+* "//*[@class='closeBtn']" xPath li elemente tıkla
+*"https://www.lcwaikiki.com/tr-TR/TR" li ve "Anasayfa" isimli sayfa kontrolü yapılır
+* "2" saniye bekle
+
+#Menüden erkek seçeneği üzerinde dur,kategori olarak gömlek seçimi yap
+*"//*[@data-tracking-label='ERKEK']" xPath li elementin üzerine gelip menüden "//*[@href='/tr-TR/TR/kategori/erkek/gomlek']" li elemente tıklama
+*"https://www.lcwaikiki.com/tr-TR/TR/kategori/erkek/gomlek" li ve "Erkek Gömlek" isimli sayfa kontrolü yapılır
+
+#En yüksek fiyattan sıralama işlemi yapılır
+* "//* [@id='dropdownMenu1']/label" xPath li elemente tıkla
+* "3" saniye bekle
+* "a[id='hfl_3']" css li elemente tıkla
+* "3" saniye bekle
+*"//*[@id='dropdownMenu1']/label" xPath li listenin sıralamasını kontrol et
+* "2" saniye bekle
+
+#Favori ürünlerin eklemesi ve kontrolü yapılır
+* "//*[@class='emi-item fav']" xPath li listeden ilk 3 ürünü favorilere ekle
+* "//*[@class='header-favorite-icon bndl-like bndl-like-dims']" xPath li elemente tıkla
+*"https://www.lcwaikiki.com/tr-TR/TR/favorilistem" li ve "Favorilerim" isimli sayfa kontrolü yapılır
+*"//*[@class='picture-box']" li listede 3 eleman var mı?
+
+#Favori ürünleri kaldırma ve kontrol işlemleri
+* "//*[@id='selectAll']" xPath li elemente tıkla
+*"//*[@checked='checked']" xPath li listede eleman kontrolü
+*  "//*[@id='removeSelected']" xPath li elemente tıkla
+*"p[class='text-center bold favoriteNoItemHeaderColor']" css elementinin içeriğini kontrol et
